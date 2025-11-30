@@ -4,7 +4,7 @@
 
 217  mpirun -np 4 ./array_sum
 
-
+<br>
 225  vi factorial.c
 
 226  mpicc -o factorial factorial.c
