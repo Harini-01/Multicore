@@ -12,8 +12,6 @@ return NULL;}
 int main() { 
 pthread_t threads[NUM_THREADS]; 
 int thread_ids[NUM_THREADS]; 
-M.S. RAMAIAH INSTITUTE OF TECHNOLOGY 
-(Autonomous Institute, Affiliated to VTU) 
 for (int i = 0; i < NUM_THREADS; i++) { 
 thread_ids[i] = i; 
 pthread_create(&threads[i], NULL, factorial, (void*)&thread_ids[i]); } 
