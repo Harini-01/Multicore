@@ -1,11 +1,10 @@
 215  vi array_sum.c
-  216  mpicc -o array_sum array_sum.c
-  217  mpirun -np 4 ./array_sum
+216  mpicc -o array_sum array_sum.c
+217  mpirun -np 4 ./array_sum
 
-
-  225  vi factorial.c
-  226  mpicc -o factorial factorial.c
-  227  mpirun -np 4 ./factorial
+225  vi factorial.c
+226  mpicc -o factorial factorial.c
+227  mpirun -np 4 ./factorial
 
    228  vi bank.c
   229  mpicc -o bank bank.c
