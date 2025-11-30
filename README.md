@@ -28,5 +28,10 @@
   247  gcc -fopenmp parallel.c -o parallel
   248  ./parallel
   249  mpicc -fopenmp parallel.c -o parallel
+
+
+  Troubleshooting:
+   mpirun --report-pid --display-allocation -np 1 hostname
+   mpirun -np 1 --display-map hostname
   250  mpirun -np 4 ./parallel
   
